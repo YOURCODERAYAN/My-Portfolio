@@ -74,7 +74,7 @@ const Contact = () => {
 
 
   return (
-        <section className='relative flex items-center  c-space section-spacing'>
+        <section className='relative flex items-center  c-space section-spacing' id="contact">
          
          {showAlert && <Alert type={alertType} text={alertMessage} />}
             <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
