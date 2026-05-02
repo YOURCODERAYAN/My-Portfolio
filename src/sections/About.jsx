@@ -11,8 +11,8 @@ function About(){
         const containerRef = useRef()
         return(
               <>
-                <section className="c-space section-spacing mb-0">
-                        <h2 className="text-heading">About Me</h2>
+                <section className="c-space section-spacing mb-0" id="about">
+                        <h2 className="text-heading font-medium ">About  Me</h2>
                 
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
                {/* Grid -1 */}
@@ -84,31 +84,36 @@ function About(){
 
                 {/*grid-5*/}
 
-                <div className=" grid-5 " style={{backgroundImage : "url('/assests/27230.jpg')"  , backgroundPosition:'center' , backgroundRepeat:'no-repeat' , backgroundSize:'cover'}}>
+                <div className="  color grid-5 " style={{  border: '1.5px solid rgba(192, 192, 192, 0.8)',
+    boxShadow: '0 0 15px 4px rgba(192, 192, 192, 0.5), 0 0 40px 8px rgba(192, 192, 192, 0.2), inset 0 0 15px rgba(192, 192, 192, 0.1)'}}>
 
                         <div>
                                 <Skills />
 
                         </div>
                 </div>
+
+                <div className="color grid-6" style={{  border: '1.5px solid rgba(192, 192, 192, 0.8)',
+    boxShadow: '0 0 15px 4px rgba(192, 192, 192, 0.5), 0 0 40px 8px rgba(192, 192, 192, 0.2), inset 0 0 15px rgba(192, 192, 192, 0.1)'}}>
+  <div>
+   <Skills2 />
+  </div>
+</div>
+
+{/* grid-7 - Languages */}
+<div className="color grid-7" style={{  border: '1.5px solid rgba(192, 192, 192, 0.8)',
+    boxShadow: '0 0 15px 4px rgba(192, 192, 192, 0.5), 0 0 40px 8px rgba(192, 192, 192, 0.2), inset 0 0 15px rgba(192, 192, 192, 0.1)'}}>
+  <div>
+   <Skills3 />
+  </div>
+</div>
                 </div>
                
 
                 </section>
 
 
-                <div className="flex flex-row  items-center justify-center gap-10  -mt-12 rounded-2xl">
-
-                        <div className="flex items-center justify-center rounded-2xl w-190 p-10 gap-10" style={{backgroundImage: "url('assests/27230.jpg')" , backgroundPosition:'center' , backgroundRepeat:'no-repeat' , backgroundSize:'cover' }}>
-                                       <Skills2 />
-                        </div>
-
-
-                        <div className="flex items-center justify-center rounded-2xl   -ml-3"  style={{backgroundImage: "url('assests/27230.jpg')" , backgroundPosition:'center' , backgroundRepeat:'no-repeat' , backgroundSize:'cover'}}>
-                               <Skills3 />
-                        </div>
-
-                </div>
+              
 
                 
 

@@ -12,7 +12,7 @@ const skills = [
 const Skills2 = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-            <p className="mb-20 text-2xl">The Frontend languages used by me</p>
+            <p className="mb-20 text-2xl">Core Languages</p>
             <div className='grid grid-cols-3 gap-3'>
               {skills.map((skill) => (
                 <GlareCard key={skill.id} className="flex flex-col items-center justify-center gap-3">
