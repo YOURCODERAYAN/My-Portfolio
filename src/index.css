@@ -90,7 +90,7 @@ body {
 }
 
 .text-heading {
-  @apply font-bold text-3xl md:text-4xl;
+  @apply  text-3xl md:text-4xl;
 }
 
 .headtext {
@@ -156,10 +156,11 @@ body {
 }
 
 .color {
-  @apply bg-black rounded-2xl;
-  background-image: linear-gradient(rgba(255,255,255,0.15) 1px, transparent 1px),
-                    linear-gradient(90deg, rgba(255,255,255,0.15) 1px, transparent 1px);
-  background-size: 40px 40px;
+  @apply rounded-2xl;
+   background: radial-gradient(at 40% 20%, #1f1e39 0%, transparent 50%),
+              radial-gradient(at 80% 0%, #161a31 0%, transparent 50%),
+              radial-gradient(at 0% 50%, #5c33cc20 0%, transparent 50%),
+              #06091f;
 }
 
 /* Contact Section*/

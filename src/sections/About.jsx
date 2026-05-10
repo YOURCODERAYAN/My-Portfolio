@@ -85,7 +85,7 @@ function About(){
                 {/*grid-5*/}
 
                 <div className="  color grid-5 " style={{  border: '1.5px solid rgba(192, 192, 192, 0.8)',
-    boxShadow: '0 0 15px 4px rgba(192, 192, 192, 0.5), 0 0 40px 8px rgba(192, 192, 192, 0.2), inset 0 0 15px rgba(192, 192, 192, 0.1)'}}>
+    boxShadow: '0 0 15px 1px rgba(192, 192, 192, 0.5), 0 0 1px 1px rgba(192, 192, 192, 0.2), inset 0 0 6px rgba(192, 192, 192, 0.1)'}}>
 
                         <div>
                                 <Skills />
@@ -94,7 +94,7 @@ function About(){
                 </div>
 
                 <div className="color grid-6" style={{  border: '1.5px solid rgba(192, 192, 192, 0.8)',
-    boxShadow: '0 0 15px 4px rgba(192, 192, 192, 0.5), 0 0 40px 8px rgba(192, 192, 192, 0.2), inset 0 0 15px rgba(192, 192, 192, 0.1)'}}>
+    boxShadow: '0 0 6px 1px rgba(192, 192, 192, 0.5), 0 0 1px 1px rgba(192, 192, 192, 0.2), inset 0 0 6px rgba(192, 192, 192, 0.1)'}}>
   <div>
    <Skills2 />
   </div>
@@ -102,7 +102,7 @@ function About(){
 
 {/* grid-7 - Languages */}
 <div className="color grid-7" style={{  border: '1.5px solid rgba(192, 192, 192, 0.8)',
-    boxShadow: '0 0 15px 4px rgba(192, 192, 192, 0.5), 0 0 40px 8px rgba(192, 192, 192, 0.2), inset 0 0 15px rgba(192, 192, 192, 0.1)'}}>
+    boxShadow: '0 0 15px 1px rgba(192, 192, 192, 0.5), 0 0 1px 1px rgba(192, 192, 192, 0.2), inset 0 0 6px rgba(192, 192, 192, 0.1)'}}>
   <div>
    <Skills3 />
   </div>
