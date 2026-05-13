@@ -8,7 +8,7 @@ const skills = [
   { id: 3, texture: '/logos/gsap1.svg',                         name: 'GSAP'          },
   { id: 4, texture: '/logos/router2.svg',                 name: 'React-Router'  },
   { id: 5, texture: '/logos/icons8-github-96.png',             name: 'Github'        },
-  { id: 6, texture: '/logos/icons8-visual-studio-code-96.png', name: 'Vscode'        },
+  { id: 6, texture: '/logos/vercel.png', name: 'Vercel'        },
   { id: 7, texture: '/logos/icons8-git-96.png',                name: 'Git'           },
   { id: 7, texture: '/logos/puter-logo.png',                name: 'Puter. js'           },
   {id:8 , texture:'/logos/icons8-figma-96.png' , name:'Figma'},

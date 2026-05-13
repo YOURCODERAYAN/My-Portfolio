@@ -34,13 +34,13 @@ const Projects = () => {
                
                 <span className="mx-10">Ai Resume Analyzer</span>
             <span className="mx-10">    <img src={arrow} alt="arrow"  className="w-10  "/> </span>
-                <span className="mx-10">Macbook 3d Website</span>
+                <span className="mx-10">Interactive Zentrae Experience</span>
                 <span className="mx-10">In Depth Analysis and Prediction of Global Terrorism: A
                   Synergistic Approach using EDA and Advanced ML Models </span>
 
                 
                 <span className="mx-10">Ai Resume Analyzer</span>
-                <span className="mx-10">Macbook 3d Website</span>
+                <span className="mx-10">Interactive Zentrae Experience</span>
                 <span className="mx-10">In Depth Analysis and Prediction of Global Terrorism: A
                   Synergistic Approach using EDA and Advanced ML Models </span>
               </motion.div>
