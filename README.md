@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- COVER IMAGE — replace with your own -->
-![Cover](./public/assests/Cover.png)
+<img src="./screenshots/portfolio-cover.png" width="80%"/>
 
 <br/>
 
@@ -22,14 +22,14 @@
 <br/>
 
 <!-- GIF — replace with your recording -->
-> 🎬 *Add your screen recording GIF here*
+
 > 
 > <img width="800" height="417" alt="portfolio-gif" src="https://github.com/user-attachments/assets/38f36c3b-1c47-4817-9cbe-7e46f66466c1" />
 
 
 <br/>
 
-> 🔗 **Want to experience the full thing? [Click the live demo](https://your-live-link.vercel.app) — some effects only come alive in motion.**
+> 🔗 **Want to experience the full thing? [Click the live demo](https://ayan-saha.vercel.app/) — some effects only come alive in motion.**
 
 </div>
 
@@ -155,7 +155,7 @@ My-Portfolio/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/My-Portfolio.git
+git clone https://github.com/YOURCODERAYAN/My-Portfolio.git
 
 # Navigate into the project
 cd My-Portfolio
@@ -175,11 +175,9 @@ npm run dev
 
 If you'd like to collaborate, hire, or just say hi —
 
-**[✉️ Reach out via the site](https://your-live-link.vercel.app/#contact)**
+**[✉️ Reach out via the site](https://ayan-saha.vercel.app/#contact)**
 &nbsp;·&nbsp;
-**[LinkedIn](https://linkedin.com/in/your-profile)**
-&nbsp;·&nbsp;
-**[GitHub](https://github.com/your-username)**
+**[GitHub](https://github.com/YOURCODERAYAN)**
 
 <br/>
 
