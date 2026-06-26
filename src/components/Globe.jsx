@@ -1,4 +1,3 @@
-import { OrbitControls } from '@react-three/drei'
 import{Canvas} from '@react-three/fiber'
 import {useTexture} from '@react-three/drei'
 import { Environment } from '@react-three/drei'
@@ -36,7 +35,6 @@ const Globe=()=>{
      <ambientLight intensity={3} />
      <Environment preset='studio' />
         <Sphere/>
-    <OrbitControls/>
     </Canvas>
     )
 }

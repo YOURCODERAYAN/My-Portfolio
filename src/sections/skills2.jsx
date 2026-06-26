@@ -3,22 +3,26 @@ import { Canvas } from '@react-three/fiber'
 import { Environment } from '@react-three/drei'
 
 const skills = [
-  { id: 1, texture: '/logos/icons8-three.js-96.png',           name: 'Three.js'      },
-  { id: 2, texture: '/logos/framer-motion.svg',                name: 'Framer-motion' },
-  { id: 3, texture: '/logos/gsap1.svg',                         name: 'GSAP'          },
-  { id: 4, texture: '/logos/router2.svg',                 name: 'React-Router'  },
-  { id: 5, texture: '/logos/icons8-github-96.png',             name: 'Github'        },
-  { id: 6, texture: '/logos/vercel.png', name: 'Vercel'        },
-  { id: 7, texture: '/logos/icons8-git-96.png',                name: 'Git'           },
-  { id: 7, texture: '/logos/puter-logo.png',                name: 'Puter. js'           },
+  { id: 1, texture: '/logos/icons8-three.js-96.png', name: 'Three.js'},
+  { id: 2, texture: '/logos/framer-motion.svg', name: 'Framer-motion' },
+  { id: 3, texture: '/logos/gsap1.svg',  name: 'GSAP' },
+  { id: 4, texture: '/logos/router2.svg',  name: 'React-Router'},
+  { id: 5, texture: '/logos/icons8-github-96.png', name: 'Github'},
+  { id: 6, texture: '/logos/vercel.png', name: 'Vercel' },
+  { id: 7, texture: '/logos/icons8-git-96.png', name: 'Git'},
+  { id: 7, texture: '/logos/puter-logo.png',name: 'Puter. js'},
   {id:8 , texture:'/logos/icons8-figma-96.png' , name:'Figma'},
-  {id:9 , texture:'/logos/logo.png' , name:"Aceternity UI"},
+  {id:9 , texture:'/logos/shadcn-ui (1).png' , name:"Shadcn/UI"},
+  {id:10 , texture:'/logos/icons8-nextjs-96 (1).png' , name:'Next.js'},
+  {id:11 , texture:'/logos/tanstack_query.png' , name:'TanstackQuery'},
+  {id:12 , texture:'/logos/zustand-original-64px.png' , name:'Zustand'},
+  {id:13 , texture:'/logos/react-flow.dark.svg' , name:'ReactFlow'},
 ]
 
 const Skills2 = () => {
   return (
    <div className="flex flex-col items-center justify-center">
-         <p className="mb-20 text-2xl">Tools & Libraries </p>
+         <p className="mb-8 text-2xl">Tools & Libraries </p>
          <div className='grid grid-cols-5 gap-3'>
            {skills.map((skill) => (
              <GlareCard key={skill.id} className="flex flex-col items-center justify-center gap-3">

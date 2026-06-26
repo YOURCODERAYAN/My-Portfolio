@@ -91,7 +91,7 @@ export default function Final() {
       words={[
         { text: "Awards" },
         { text: "&" },
-        { text: "Achievements" }
+        { text: "Achievements." }
       ]}
     />
   </div>
